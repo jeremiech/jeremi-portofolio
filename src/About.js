@@ -1,12 +1,34 @@
 import React from "react";
 import "./About.css";
 import pasport from "./img/pasport .png"
+import { jsPDF } from "jspdf";
+
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
       const upToTop = document.querySelector("a.bottom__to__top");
        upToTop.classList.toggle("active", window.scrollY > 0)
     });
+
+
+    const generatePDF=()=>{
+      const docs=new jsPDF('portrait')
+      docs.html(document.querySelector('.cv-page'),
+      {
+        callback:(pdf)=>{
+          let pageCount=docs.internal.pages
+          pdf.deletePage(pageCount)
+          pdf.save('CV.pdf')
+        }
+      }
+      )
+ 
+
+   
+      
+    }
+
+
   return (
     <div className="about component__space" id="About">
       <div className="container">
@@ -17,10 +39,13 @@ function About() {
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
+
+
+              <div className="cv-page">
               <p className="about__text p__color">
               Hello everybody! My name is Jeremie Niyonkuru.
-     I am a Web Developer, and I'm very passionate and dedicated to my work.
-    With 3 years experience as a professional Web developer,
+         I am a Web Developer, and I'm very passionate and dedicated to my work.
+          With 3 years experience as a professional Web developer,
 
               </p>
               <p className="about__text p__color">
@@ -31,10 +56,9 @@ function About() {
               we need to make great things by enjoying  day by day steps of experience and
                working together that's all we want to make great things
               </p>
+              </div>
               <div className="about__button d__flex align__items__center">
-                <a href="#">
-                  <button className="about btn pointer">Download Cv</button>
-                </a>
+                  <button onClick={generatePDF} className="about btn pointer">Download Cv</button>
                 <a href="#">
                   <button className="about btn pointer">Hire Me</button>
                 </a>

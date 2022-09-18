@@ -12,6 +12,12 @@ h1.about__heading{
     font-family: Montserrat,sans-serif;
     font-size: 60px;
 }
+.about  .cv-page{
+width: 593px ;
+height:843px;
+padding: 4px;
+}
+
 button.about.btn.pointer {
     text-transform: capitalize;
     width: 195px;
