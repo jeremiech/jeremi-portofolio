@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c927762.chunk.css",
+    "main.js": "/static/js/main.72c263a4.chunk.js",
+    "main.js.map": "/static/js/main.72c263a4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cae6205e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cae6205e.js.map",
+    "static/js/2.c8894556.chunk.js": "/static/js/2.c8894556.chunk.js",
+    "static/js/2.c8894556.chunk.js.map": "/static/js/2.c8894556.chunk.js.map",
+    "static/js/3.de60ab25.chunk.js": "/static/js/3.de60ab25.chunk.js",
+    "static/js/3.de60ab25.chunk.js.map": "/static/js/3.de60ab25.chunk.js.map",
+    "static/js/4.c7bf3b3e.chunk.js": "/static/js/4.c7bf3b3e.chunk.js",
+    "static/js/4.c7bf3b3e.chunk.js.map": "/static/js/4.c7bf3b3e.chunk.js.map",
+    "static/js/5.f82a0cd1.chunk.js": "/static/js/5.f82a0cd1.chunk.js",
+    "static/js/5.f82a0cd1.chunk.js.map": "/static/js/5.f82a0cd1.chunk.js.map",
+    "static/js/6.f4344b24.chunk.js": "/static/js/6.f4344b24.chunk.js",
+    "static/js/6.f4344b24.chunk.js.map": "/static/js/6.f4344b24.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2c927762.chunk.css.map": "/static/css/main.2c927762.chunk.css.map",
+    "static/js/2.c8894556.chunk.js.LICENSE.txt": "/static/js/2.c8894556.chunk.js.LICENSE.txt",
+    "static/js/3.de60ab25.chunk.js.LICENSE.txt": "/static/js/3.de60ab25.chunk.js.LICENSE.txt",
+    "static/js/4.c7bf3b3e.chunk.js.LICENSE.txt": "/static/js/4.c7bf3b3e.chunk.js.LICENSE.txt",
+    "static/js/5.f82a0cd1.chunk.js.LICENSE.txt": "/static/js/5.f82a0cd1.chunk.js.LICENSE.txt",
+    "static/media/blog-01.67ebb920.jpg": "/static/media/blog-01.67ebb920.jpg",
+    "static/media/blog-02.6ecd55ed.jpg": "/static/media/blog-02.6ecd55ed.jpg",
+    "static/media/blog-03.1bced0df.jpg": "/static/media/blog-03.1bced0df.jpg",
+    "static/media/pasport .a6c8206c.png": "/static/media/pasport .a6c8206c.png",
+    "static/media/portfolio-1.6dd6354d.jpg": "/static/media/portfolio-1.6dd6354d.jpg",
+    "static/media/portfolio-2.7581ecc6.jpg": "/static/media/portfolio-2.7581ecc6.jpg",
+    "static/media/portfolio-3.e1d203d2.jpg": "/static/media/portfolio-3.e1d203d2.jpg",
+    "static/media/portfolio-4.2d8bf5e6.jpg": "/static/media/portfolio-4.2d8bf5e6.jpg",
+    "static/media/porto-bg-design.aae0d302.png": "/static/media/porto-bg-design.aae0d302.png",
+    "static/media/Home.css": "/static/media/removebg.ee16a798.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cae6205e.js",
+    "static/js/3.de60ab25.chunk.js",
+    "static/css/main.2c927762.chunk.css",
+    "static/js/main.72c263a4.chunk.js"
+  ]
+}
