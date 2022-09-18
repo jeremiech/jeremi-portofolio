@@ -9,6 +9,7 @@ function Service() {
         <h1 className="heading">My Awesome Service</h1>
         <p className="heading p__color">
           There are many variations of passages of Lorem Ipsum available,
+          
         </p>
         <p className="heading p__color">
           but the majority have suffered alteration.
@@ -36,14 +37,12 @@ function Service() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Business Stratagy</h1>
+                <h1 className="service__text">Brand Identity</h1>
                 <p className="p service__text p__color">
-                  I throw myself down among the
-                </p>
+                Successful branding depends on having a well-formed brand </p>
                 <p className="p service__text p__color">
-                  tall grass by the stream as I lie
+                identity that is, the distinct voice 
                 </p>
-                <p className="p service__text p__color">close to the earth.</p>
               </div>
             </div>
           </div>
@@ -70,12 +69,11 @@ function Service() {
               <div className="service__meta">
                 <h1 className="service__text">Website Development</h1>
                 <p className="p service__text p__color">
-                  I throw myself down among the
+              web developing is becoming huge successfull
                 </p>
                 <p className="p service__text p__color">
-                  tall grass by the stream as I lie
+                 as world is getting 
                 </p>
-                <p className="p service__text p__color">close to the earth.</p>
               </div>
             </div>
           </div>
@@ -103,12 +101,11 @@ function Service() {
               <div className="service__meta">
                 <h1 className="service__text">Marketing & Reporting</h1>
                 <p className="p service__text p__color">
-                  I throw myself down among the
+                  Do the right thing as marketers to build trust.
                 </p>
                 <p className="p service__text p__color">
-                  tall grass by the stream as I lie
+                  this is our main goals
                 </p>
-                <p className="p service__text p__color">close to the earth.</p>
               </div>
             </div>
           </div>
@@ -135,12 +132,12 @@ function Service() {
               <div className="service__meta">
                 <h1 className="service__text">Mobile App Development</h1>
                 <p className="p service__text p__color">
-                  I throw myself down among the
+                  all basic communication needs 
                 </p>
                 <p className="p service__text p__color">
-                  tall grass by the stream as I lie
+                  
+                  to pass through mobile and develop supportiveservice
                 </p>
-                <p className="p service__text p__color">close to the earth.</p>
               </div>
             </div>
           </div>
@@ -166,14 +163,13 @@ function Service() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Marketing & Reporting</h1>
+                <h1 className="service__text">Creative Design</h1>
                 <p className="p service__text p__color">
-                  I throw myself down among the
+                  Creative design involves using computer-
                 </p>
                 <p className="p service__text p__color">
-                  tall grass by the stream as I lie
+                  generated imagery 
                 </p>
-                <p className="p service__text p__color">close to the earth.</p>
               </div>
             </div>
           </div>

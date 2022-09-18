@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "./img/about.jpg";
+import pasport from "./img/pasport .png"
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
@@ -12,26 +12,24 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col__2">
-            <img src={aboutImg} alt="" className="about__img" />
+            <img src={pasport} alt="" className="about__img" />
           </div>
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+              Hello everybody! My name is Jeremie Niyonkuru.
+     I am a Web Developer, and I'm very passionate and dedicated to my work.
+    With 3 years experience as a professional Web developer,
+
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+           I  have acquired the skills and knowledge necessary to make your project a success. 
+            I enjoy every step of the design process, from discussion and collaboration.
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
+              we need to make great things by enjoying  day by day steps of experience and
+               working together that's all we want to make great things
               </p>
               <div className="about__button d__flex align__items__center">
                 <a href="#">

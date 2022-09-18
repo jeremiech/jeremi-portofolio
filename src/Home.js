@@ -14,9 +14,6 @@ function Home() {
     <div className="home" id="Home">
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
-          <div className="logo">
-            <img src={logo} alt="" />
-          </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
               <a href="#Home">
@@ -39,7 +36,6 @@ function Home() {
               </a>
             </ul>
           </div>
-          {/* Toogle Menu */}
           <div className="toggle__menu">
             <svg onClick={() => setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
@@ -84,10 +80,10 @@ function Home() {
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
-              <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
-              <h2 className="home__text pz__10">Hi, I’m Jone Doe</h2>
+              <h1 className="home__text pz__10">WELCOME TO MY PORTFOLIO </h1>
+              <h2 className="home__text pz__10">Hi, I’m Jeremie Niyo.</h2>
               <h3 className="home__text sweet pz__10">JS Developer.</h3>
-              <h4 className="home__text pz__10">based in USA.</h4>
+              <h4 className="home__text pz__10">Based in Rwanda</h4>
             </div>
           </div>
         </div>
